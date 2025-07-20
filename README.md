@@ -16,8 +16,8 @@ This project involves the implementation of a 2-bit digital comparator using VSD
 Task is to install all the essential tools required for this internship such as Ubuntu on VMBox, GNU Toolchain, GTKWave, Yosys and iVerilog simulator.
 
 ### 1. Install Ubuntu 20.04 LTS on Oracle Virtual Machine Box
-*https://github.com/mrudu06/vsd-riscv/blob/main/Task%201/RISCV%20simulation%20.png.png*
-*https://github.com/mrudu06/vsd-riscv/blob/main/Task%201/sum1ton.png.png*
+*(https://github.com/mrudu06/vsd-riscv/blob/main/Task%201/RISCV%20simulation%20.png.png)*
+*(https://github.com/mrudu06/vsd-riscv/blob/main/Task%201/sum1ton.png.png)*
 
 ### 2. Install RISC-V GNU ToolChain
 The RISC-V GNU Compiler Toolchain is a free and open source cross-compiler for C and C++. It supports two build modes: Generic ELF/Newlib and Linux-ELF/glibc. The toolchain can be used to create assembly instructions and sequences for execution in a simulator and target FPGA.
@@ -65,7 +65,6 @@ $ sudo apt update
 $ sudo apt install gtkwave
 ```
 
-*[Space for GTKWave installation screenshots]*
 
 ### 5. Install Icarus Verilog
 Icarus Verilog is a compiler for the Verilog hardware description language (HDL). It's used to collect Verilog source code, check for errors, and write compiled design files.
@@ -154,7 +153,6 @@ There are 6 instruction formats in RISC-V:
 - **Operation:** r15 = r1 << r2
 - **Binary:** `0000000_00010_00001_001_01111_0110011`
 
-*[Space for instruction format diagrams and tables]*
 
 ## Task 3: Compile C code using gcc and RISC-V compiler
 
@@ -179,7 +177,7 @@ $ gcc sum_1ton.c
 $ ./a.out
 ```
 
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%202/Printnum.png.png
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%202/Printnum.png.png)
 
 ### C Code Compilation with RISC-V Compiler
 
@@ -196,8 +194,8 @@ $ riscv64-unknown-elf-objdump -d sum_1ton.o
 - **-Ofast:** Maximum speed optimization
 - **-O0:** No optimization (default)
 
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%202/RISCV%20%20-Ofast%20objdump.png.png
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%202/RISCV%20-O1%20objdump.png.png
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%202/RISCV%20%20-Ofast%20objdump.png.png)
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%202/RISCV%20-O1%20objdump.png.png)
 ## Task 4: SPIKE Simulation and Debugging
 
 SPIKE is a RISC-V ISA simulator that enables testing and analysis of RISC-V programs without actual hardware.
@@ -265,19 +263,19 @@ $ spike -d pk sum_1ton.o
 | OR R9, R2, R5 | 32'h005164b3 | 32'h02513480 |
 | XOR R10, R1, R4 | 32'h0040c533 | 32'h0240c500 |
 
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20205435.png
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20205628.png
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20205929.png
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210015.png
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210023.png
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210053.png
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210041.png
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210108.png
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210123.png
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210140.png
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210152.png
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210321.png
-https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210330.png
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20205435.png)
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20205628.png)
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20205929.png)
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210015.png)
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210023.png)
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210053.png)
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210041.png)
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210108.png)
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210123.png)
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210140.png)
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210152.png)
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210321.png)
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%204/Screenshot%202025-06-17%20210330.png)
 ## Task 6: Final Implementation - 2-Bit Comparator using VSDSquadron Mini
 
 This final task implements a 2-bit digital comparator circuit using VSDSquadron Mini to demonstrate practical RISC-V application.
@@ -307,8 +305,7 @@ VSDSquadron Mini is a RISC-V based development board designed for learning and i
   - PC6: A=B LED output
 
 ## Circuit Diagram
-*[Space for circuit diagram image]*
-
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%205/Screenshot%202025-07-20%20095803.png)
 ## Truth Table
 The 2-bit comparator follows this truth table:
 
@@ -409,11 +406,9 @@ int main()
 ```
 
 ## Hardware Setup Images
-
-## Simulation and Testing
-
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%205/Screenshot%202025-07-20%20095803.png)
 ## Working Video
-
+(https://github.com/mrudu06/vsd-riscv/blob/main/Task%205/WhatsApp%20Video%202025-07-19%20at%2021-VEED.mp4)
 ## Results and Observations
 The 2-bit comparator successfully:
 - Compares two 2-bit binary numbers in real-time
