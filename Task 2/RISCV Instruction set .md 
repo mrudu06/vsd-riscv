@@ -1,0 +1,21 @@
+# RISC-V Instruction Set
+
+|               Instruction            | 32-bit Code|  Type  |
+|--------------------------------------|------------|--------|
+| lui a0, 0x21                         | 0x00021537 | U-Type |
+| addi sp, sp, -16                     | 0xff010113 | I-Type |
+| li a2, 15                            | 0x00f00613 | I-Type |
+| li a1, 5                             | 0x00500593 | I-Type |
+| addi a0, a0, 384                     | 0x18050513 | I-Type |
+| sd ra, 8(sp)                         | 0x00113423 | S-Type |
+| jal ra, 10408 <printf>               | 0x340000ef | J-Type |
+| ld ra, 8(sp)                         | 0x00813083 | I-Type |
+| li a0, 0                             | 0x00000513 | I-Type |
+| addi sp, sp, 16                      | 0x01010113 | I-Type |
+| ret                                  | 0x00008067 | I-Type |
+| auipc a5, 0xffff0                    | 0xffff0797 | U-Type |
+| addi a5, a5, -220                    | 0xf2478793 | I-Type |
+| beqz a5, 100f4 <register_fini+0x018> | 0x00787863 | B-Type |
+| j 101b0 <atexit>                     | 0x0c00006f | J-Type |
+
+
