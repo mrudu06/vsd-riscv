@@ -414,7 +414,7 @@ int main()
 ![Circuit Diagram](https://raw.githubusercontent.com/mrudu06/vsd-riscv/main/Task%205/Screenshot%202025-07-20%20095803.png)
 
 ## Working Demo
-[![Demo Video](https://drive.google.com/file/d/1bZPNV71LP8by1CvHRdzidOda0wg-6FZW/view?usp=sharing)]
+[Watch Demo Video](https://drive.google.com/file/d/1bZPNV71LP8by1CvHRdzidOda0wg-6FZW/view?usp=sharing)
 
 ## Results and Observations
 The 2-bit comparator successfully:
