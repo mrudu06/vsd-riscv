@@ -197,8 +197,8 @@ $ riscv64-unknown-elf-objdump -d sum_1ton.o
 - **-Ofast:** Maximum speed optimization
 - **-O0:** No optimization (default)
 
-![RISCV Ofast Objdump](https://raw.githubusercontent.com/mrudu06/vsd-riscv/main/Task%202/RISCV%20%20-Ofast%20objdump.png.png)
-![RISCV O1 Objdump](https://raw.githubusercontent.com/mrudu06/vsd-riscv/main/Task%202/RISCV%20-O1%20objdump.png.png)
+![RISCV Ofast Objdump](https://github.com/mrudu06/vsd-riscv/blob/main/Task%203/RISCV%20%20-Ofast%20objdump.png.png)
+![RISCV O1 Objdump](https://github.com/mrudu06/vsd-riscv/blob/main/Task%203/RISCV%20-O1%20objdump.png.png)
 ## Task 4: SPIKE Simulation and Debugging
 
 SPIKE is a RISC-V ISA simulator that enables testing and analysis of RISC-V programs without actual hardware.
